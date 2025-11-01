@@ -1,0 +1,13 @@
+{
+  "job_id": "70a28595-31c2-40fe-a778-1ad21148c12e",
+  "target": "youtube.com",
+  "started": 1761977629.3166432,
+  "tools": [
+    {
+      "tool": "nmap",
+      "rc": 0,
+      "out": "/home/kush/agentic-scanner/scanner/results/70a28595-31c2-40fe-a778-1ad21148c12e/nmap.out"
+    }
+  ],
+  "finished": 1761977659.4867249
+}

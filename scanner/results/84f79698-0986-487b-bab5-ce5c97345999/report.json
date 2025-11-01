@@ -1,0 +1,13 @@
+{
+  "job_id": "84f79698-0986-487b-bab5-ce5c97345999",
+  "target": "CYBERHX.COM",
+  "started": 1761933184.6259825,
+  "tools": [
+    {
+      "tool": "nmap",
+      "rc": 0,
+      "out": "/home/kush/agentic-scanner/scanner/results/84f79698-0986-487b-bab5-ce5c97345999/nmap.out"
+    }
+  ],
+  "finished": 1761933189.7520862
+}

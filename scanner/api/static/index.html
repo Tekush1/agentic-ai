@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Mini Scanner UI</title></head>
+<body>
+  <h3>Mini Scanner (MVP)</h3>
+  <input id="target" placeholder="example.com or https://example.com" size=40 />
+  <select id="tool">
+    <option value="nmap">nmap</option>
+    <option value="whatweb">whatweb</option>
+    <option value="nikto">nikto</option>
+    <option value="gobuster">gobuster</option>
+    <option value="sqlmap">sqlmap</option>
+  </select>
+  <button id="scan">Start</button>
+  <pre id="out"></pre>
+<script>
+document.getElementById('scan').onclick = async () => {
+  const target = document.getElementById('target').value;
+  const tool = document.getElementById('tool').value;
+  document.getElementById('out').textContent = 'Starting...';
+
+  // call backend on port 8000 (full URL)
+  const res = await fetch('http://localhost:8000/scan', {
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({target, tools:[tool]})
+  });
+
+  const j = await res.json();
+  if (j.detail) { document.getElementById('out').textContent = JSON.stringify(j); return; }
+
+  // poll result from backend
+  const jobId = j.job_id;
+  let r;
+  while (true) {
+    try {
+      r = await fetch('http://localhost:8000/result/' + jobId);
+      if (r.status==200) break;
+    } catch(e){}
+    document.getElementById('out').textContent += '.';
+    await new Promise(r=>setTimeout(r,2000));
+  }
+  const rep = await r.json();
+  document.getElementById('out').textContent = JSON.stringify(rep, null, 2);
+}
+</script>
+
+</body>
+</html>

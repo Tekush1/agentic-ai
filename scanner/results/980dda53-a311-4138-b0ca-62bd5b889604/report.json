@@ -1,0 +1,13 @@
+{
+  "job_id": "980dda53-a311-4138-b0ca-62bd5b889604",
+  "target": "tdc.college",
+  "started": 1761932949.3758214,
+  "tools": [
+    {
+      "tool": "nikto",
+      "rc": 127,
+      "out": "/home/kush/agentic-scanner/scanner/results/980dda53-a311-4138-b0ca-62bd5b889604/nikto.out"
+    }
+  ],
+  "finished": 1761932949.560327
+}

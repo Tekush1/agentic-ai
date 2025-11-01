@@ -1,0 +1,13 @@
+{
+  "job_id": "01ab2f9c-3e4c-4a81-9cbe-b09238a550f3",
+  "target": "cyberhx.com",
+  "started": 1761932850.0948596,
+  "tools": [
+    {
+      "tool": "whatweb",
+      "rc": 127,
+      "out": "/home/kush/agentic-scanner/scanner/results/01ab2f9c-3e4c-4a81-9cbe-b09238a550f3/whatweb.out"
+    }
+  ],
+  "finished": 1761932850.21365
+}

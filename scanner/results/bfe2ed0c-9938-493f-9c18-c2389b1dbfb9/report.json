@@ -1,0 +1,13 @@
+{
+  "job_id": "bfe2ed0c-9938-493f-9c18-c2389b1dbfb9",
+  "target": "YOUTUBE.COM",
+  "started": 1761933200.2440362,
+  "tools": [
+    {
+      "tool": "nmap",
+      "rc": 0,
+      "out": "/home/kush/agentic-scanner/scanner/results/bfe2ed0c-9938-493f-9c18-c2389b1dbfb9/nmap.out"
+    }
+  ],
+  "finished": 1761933205.9464157
+}

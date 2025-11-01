@@ -1,0 +1,13 @@
+{
+  "job_id": "23a2847a-e27a-4ab9-9f86-dc120c0b8052",
+  "target": "LINKEDIN.IN",
+  "started": 1761933223.4985318,
+  "tools": [
+    {
+      "tool": "nmap",
+      "rc": 0,
+      "out": "/home/kush/agentic-scanner/scanner/results/23a2847a-e27a-4ab9-9f86-dc120c0b8052/nmap.out"
+    }
+  ],
+  "finished": 1761933247.0082242
+}

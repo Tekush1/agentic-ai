@@ -1,0 +1,13 @@
+{
+  "job_id": "123e0605-e386-490b-8c18-0fa6678cd7aa",
+  "target": "tdc.college",
+  "started": 1761933116.4407985,
+  "tools": [
+    {
+      "tool": "nmap",
+      "rc": 0,
+      "out": "/home/kush/agentic-scanner/scanner/results/123e0605-e386-490b-8c18-0fa6678cd7aa/nmap.out"
+    }
+  ],
+  "finished": 1761933134.0190887
+}

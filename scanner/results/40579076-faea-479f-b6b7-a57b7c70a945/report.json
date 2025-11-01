@@ -1,0 +1,13 @@
+{
+  "job_id": "40579076-faea-479f-b6b7-a57b7c70a945",
+  "target": "cyberhx.com",
+  "started": 1761932855.8281744,
+  "tools": [
+    {
+      "tool": "sqlmap",
+      "rc": 127,
+      "out": "/home/kush/agentic-scanner/scanner/results/40579076-faea-479f-b6b7-a57b7c70a945/sqlmap.out"
+    }
+  ],
+  "finished": 1761932855.9502382
+}

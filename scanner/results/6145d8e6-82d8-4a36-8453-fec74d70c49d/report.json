@@ -1,0 +1,13 @@
+{
+  "job_id": "6145d8e6-82d8-4a36-8453-fec74d70c49d",
+  "target": "youtube.com",
+  "started": 1761935744.2414212,
+  "tools": [
+    {
+      "tool": "nmap",
+      "rc": 0,
+      "out": "/home/kush/agentic-scanner/scanner/results/6145d8e6-82d8-4a36-8453-fec74d70c49d/nmap.out"
+    }
+  ],
+  "finished": 1761935749.9595098
+}

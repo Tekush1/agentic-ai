@@ -1,0 +1,19 @@
+STDOUT:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-11-01 06:13 UTC
+Nmap scan report for youtube.com (142.251.43.14)
+Host is up (0.029s latency).
+Other addresses for youtube.com (not scanned): 2404:6800:4009:809::200e
+rDNS record for 142.251.43.14: tsa03s08-in-f14.1e100.net
+Not shown: 995 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+113/tcp  closed ident
+443/tcp  open   https
+2000/tcp open   cisco-sccp
+5060/tcp open   sip
+
+Nmap done: 1 IP address (1 host up) scanned in 29.83 seconds
+
+
+STDERR:
+Unable to split netmask from target expression: "/work/extra.json"

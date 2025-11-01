@@ -1,0 +1,13 @@
+{
+  "job_id": "2db76ba1-489a-4c66-a7ae-5f0cc65df539",
+  "target": "CYBERHX.COM",
+  "started": 1761933452.628624,
+  "tools": [
+    {
+      "tool": "nikto",
+      "rc": 127,
+      "out": "/home/kush/agentic-scanner/scanner/results/2db76ba1-489a-4c66-a7ae-5f0cc65df539/nikto.out"
+    }
+  ],
+  "finished": 1761933452.7424426
+}
