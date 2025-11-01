@@ -40,8 +40,7 @@ Starting...
 <scan results will appear here>
 ```
 
-
-
+```
 (venv) kush@pop-os:~/agentic-scanner$ tree
 .
 └── scanner
@@ -79,8 +78,7 @@ Starting...
     │   └── nmap_output.xml
     ├── run_tool.sh
     └── venv
-
-
+```
 this is the project structure
 
 ---
